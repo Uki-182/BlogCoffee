@@ -69,3 +69,11 @@ img{
 .centrar-texto{
     text-align: center;
 }
+
+.header{
+    background-image: url(../Recursos/banner.jpg);
+    height: 60rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
