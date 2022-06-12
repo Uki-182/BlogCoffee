@@ -25,8 +25,7 @@ body{
 
 /*Globales*/
 .contenedor{
-    max-width: 120rem;
-    width: 90%;
+    width: min(90%,120rem);
     margin: 0 auto;
 }
 
@@ -90,6 +89,10 @@ img{
     .header__texto{
         margin-top: 15rem;
     }
+}
+
+.barra{
+    padding-top: 4rem;
 }
 
 @media ( min-width:768px){
@@ -196,21 +199,10 @@ img{
 
     .footer{
         background-color: var(--negro);
+        padding-bottom: 4rem;
+        margin-top: 4rem;
         display: flex;
         justify-content: space-around;
         align-items: center;
         
-    }
-    .footer__titulo{
-        color: var(--blanco);
-        font-family: var(--fuentesHeading);
-    }
-
-    .footer__apartados{
-        color: var(--blanco);
-        font-family: var(--fuenteParrafo);
-        font-weight: normal;
-        display: flex;
-        flex-direction: row;
-        gap: 2rem;
     }
