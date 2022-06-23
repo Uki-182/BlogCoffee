@@ -206,3 +206,21 @@ img{
         align-items: center;
         
     }
+
+    /*Sobre nosotros*/
+
+    @media (min-width:768px){
+        .sobre-nosotros{
+            display: flex;
+            justify-content: space-between; /*Permite reflejar la separacion asignada mediante la justificacion del contenido*/
+        }
+
+        .sobre-nosotros__texto{
+            flex: 0 0 calc(50% - 1rem); /*1: factor de crecimiento, 2: Factor de decremento, 3: Base de ajuste*/
+        }
+
+        .sobre-nosotros__imagen{
+            flex: 0 0 calc(50% - 1rem);
+        }
+        
+    }
