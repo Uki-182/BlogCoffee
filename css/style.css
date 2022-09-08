@@ -20,7 +20,7 @@ html{
 body{
     font-family: var(--fuenteParrafo);
     font-size: 1.6rem;
-    line-height: 2;
+    line-height: 2;/*Interline*/
 }
 
 /*Globales*/
@@ -30,7 +30,7 @@ body{
 }
 
 a{
-    text-decoration: none;
+    text-decoration: none; /*Borrar subrayado de enlaces*/
 }
 
 h1,h2,h3,h4{
@@ -252,4 +252,16 @@ img{
 
     .widget-curso__label,.widget-curso__info{
         font-size: 2rem;
+    }
+
+    .contacto-bg{
+        background-image: url(../Recursos/contacto.jpg);
+        height: 40rem;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .frm{
+        display: flex;
+        flex-direction: column;
     }
