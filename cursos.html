@@ -6,12 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BlogDeCafé</title>
-    <link rel="stylesheet" href="css/normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:ital,wght@0,700;1,400&display=swap"
-        rel="stylesheet">
+
+    <!--Preload-->
+    <link rel="preload" href="css/style.css" as="style">
     <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preload" href="fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:ital,wght@0,700;1,400&display=swap" crossorigin="crossorigin" as="font">
+
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
 </head>
 
 <body>
@@ -39,7 +44,7 @@
             <h3 class="centrar-texto">Nuestros proximos cursos y talleres</h3>
             <div class="curso">
                 <div class="curso__imagen">
-                    <img src="Recursos/curso1.jpg" alt="Imagen del curso">
+                    <img loading="lazy" src="Recursos/curso1.jpg" alt="Imagen del curso">
                 </div>
                 <div class="curso__informacion">
                     <h4 class="no-margin">Tecnicas de extraccion de café</h4>
@@ -63,7 +68,7 @@
             <!--.curo-->
             <div class="curso">
                 <div class="curso__imagen">
-                    <img src="Recursos/curso2.jpg" alt="Imagen del curso">
+                    <img loading="lazy" src="Recursos/curso2.jpg" alt="Imagen del curso">
                 </div>
                 <div class="curso__informacion">
                     <h4 class="no-margin">Taller para tostar y moler granos</h4>
@@ -87,7 +92,7 @@
             <!--.curo-->
             <div class="curso">
                 <div class="curso__imagen">
-                    <img src="Recursos/curso3.jpg" alt="Imagen del curso">
+                    <img loading="lazy" src="Recursos/curso3.jpg" alt="Imagen del curso">
                 </div>
                 <div class="curso__informacion">
                     <h4 class="no-margin">Recetas de café para principiantes</h4>
