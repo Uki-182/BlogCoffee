@@ -71,8 +71,16 @@ img{
     text-align: center;
 }
 /*Header*/
-.header{
+.webp .header{
+    background-image: url(../Recursos/banner.webp);
+}
+
+.nowebp .header{
     background-image: url(../Recursos/banner.jpg);
+
+}
+
+.header{
     height: 60rem;
     background-size: cover;
     background-repeat: no-repeat;
